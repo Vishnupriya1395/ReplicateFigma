@@ -5,6 +5,7 @@ const Hero = ({ onEdit}) => {
   return (
     <section className="hero">
       <div class="container">
+      
         <div class="button-section">
           <button class="button">Done</button>
           <button class="button">Done</button>
@@ -38,7 +39,7 @@ const Hero = ({ onEdit}) => {
         </div>
         <div class="home-section">
           <div class="item">
-            <label htmlFor="item1">All pages</label>
+            <label for="item1">All pages</label>
             <input type="checkbox" id="item1" />
           </div>
           <div class="item">
@@ -100,7 +101,7 @@ const Hero = ({ onEdit}) => {
         </div>
       </div>
     </section>
-  );
+  );  
 };
 
 export default Hero;
