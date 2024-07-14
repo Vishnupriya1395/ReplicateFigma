@@ -1,0 +1,184 @@
+.hero {
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+ 
+  .hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e4e4;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  .button-section {
+    width: 340px;
+    height: 200px;
+    padding: 20px;
+    background-color: #e6e4e4;
+    border: 2px dashed #a855f7;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+  }
+  
+ .button-section .button {
+    background-color: #fbbf24;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 340px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    cursor: pointer;
+  
+
+  }
+  
+  .home-section {
+    padding: 20px;
+    background-color:#e6e4e4;
+    border: 2px dashed #a855f7;
+    border-radius: 0px;
+  }
+  
+  .home-section .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .home-section .item input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .home-section .item label {
+    width: 320px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .checkbox-section{
+    padding: 20px;
+    border: 2px dashed #a855f7;
+    border-radius: 0px;
+  }
+  .checkbox-section .check input[type="checkbox"]{
+    width: 20px;
+    height: 45px;
+  }
+  .frame-section{
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: -5px;
+    border-bottom: #eee;
+  }
+  
+  .frame-section .button{
+    background-color: #fbbf24;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 340px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    
+  }
+  .frame-section .frame{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .frame-section .frame label{
+    width: 370px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    line-height: -100px;
+  }
+  .frame-section .frame input[type="checkbox"]{
+    width: 25px;
+    height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .outer-frame {
+    padding: 100px;
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 2px dashed #a855f7;
+    border-radius: 0px;
+  }
+  .button {
+    background-color: #fbbf24;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 340px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease; /* Smooth transition for the press effect */
+  }
+  
+  .button:active {
+    transform: scale(0.95); /* Scale down to simulate pressing */
+    background-color: #f39c12; /* Optional: Change color slightly to indicate pressing */
+  }
+  
+  .done-button {
+    background-color: #fbbf24;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.1s ease; 
+  }
+  
+  .done-button:active {
+    transform: scale(0.95);
+       background-color: #f39c12;
+  }
+  
